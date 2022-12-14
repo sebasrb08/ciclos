@@ -57,7 +57,14 @@
 // console.log(`promedio de los viejos ${viejos/cViejos}`)
 
 // console.log("ejercicio 6")
-
+// for(i=1;i<=1;i++){
+//     for(let s=1;s<=5;s++){
+//         for(let d =1;d<=4;d++){
+//             document.write(` ${i} ${s} ${d}- `)
+//         }
+//         document.write(`<br>`)
+//     }
+// }
 
 // console.log("ejercicio 7")
 
@@ -133,10 +140,25 @@
 //     comision=0
 // }
 // console.log("ejercicio 9")
-
-// let salario = 950000,comision=170000
 // let aVendido=+prompt("digite cuantos autos se vendieron ")
+// let salario = 950000,comision=170000*aVendido,venta=0,suma=0
 // for(i=1;i<= aVendido;i++){
-//     let aVendido=+prompt("digite cuantos autos se vendieron ")
-//     let venta=+prompt("digite el valor total de las ventas de los autos")
-// }   
+//     venta=+prompt(`digite el valor de la venta de el auto`)
+//     suma+=venta
+// } 
+// console.log(`el salario total de el vendedor es de ${salario+comision+(suma*0.05)}`)
+
+// console.log("\ejercicio 10")
+
+// let nota1=0,nota2=0,sNota1=0,sNota2=0
+// let nombre=prompt("digite el nombre de el estudiante")
+// for(i=1;i<=2;i++){
+//     nota1=+prompt("digite la nota de el estudiante")
+//     sNota1+=nota1
+
+// }
+// for(i=1;i<=3;i++){
+//     nota2=+prompt("digite la nota de el estudiante")
+//     sNota2+=nota2
+// }
+// console.log(`${nombre} tiene un promedio de calificaciones de ${(sNota1*0.40/2)+(sNota2*0.60/3)} `)
